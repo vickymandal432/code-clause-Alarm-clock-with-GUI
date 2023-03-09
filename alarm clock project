@@ -1,0 +1,14 @@
+import os
+import datetime
+import time
+n = 1
+c,b,a = input("enter the date = ").split("/")
+hr,min,sec= input ("enter the time= "). split(":")
+schedule_date = datetime,date(int(a), int(b), int(c))
+while n>0:
+    if time. localtime().tm_hour ==int(hr) and time.localime().tm_min ==int(min) and time.localtime().tm_sec==int(sec) and datetime.date.today()==schedule_date:
+        os.startfile("vicky")
+        break
+    else:
+        n+=1
+    
